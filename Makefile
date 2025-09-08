@@ -27,7 +27,7 @@ flaketest:
 
 .PHONY: coveragetest
 coveragetest:
-	coverage run -m unittest --catch
+	coverage run ./manage.py test
 
 .PHONY: coverage
 coverage: coveragetest
