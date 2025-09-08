@@ -27,7 +27,7 @@ flaketest:
 
 .PHONY: coveragetest
 coveragetest:
-	coverage run -m unittest --catch tests
+	coverage run -m unittest --catch
 
 .PHONY: coverage
 coverage: coveragetest
